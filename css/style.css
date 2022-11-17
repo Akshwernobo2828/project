@@ -1,0 +1,157 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.body{
+     font-family: 'Open Sans', sans-serif;
+}
+.container{ 
+     width: 1170px;
+     margin:auto ;
+
+}
+ul{
+     list-style: none;
+}
+a{
+     text-decoration: none;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+.align-center{
+     align-items: center;
+}
+.heading{
+     font-size:46px;
+     font-weight: 800;
+     color:red;
+     text-transform: uppercase;
+     text-align: center;
+}
+.heading span{
+     display: block;
+     font-weight: 400;
+     color: #7e8287;
+     font-size: 16px;
+}
+.card{
+     border-right: 1px solid red;
+     width: 25%;
+     text-align: center;
+}
+.card .icon{
+     color: red;
+     font-size: 25px;
+}
+.card h4{
+     margin: 25px 0;
+     font-size: 15px;
+     font-weight: 800;
+     color: reds;
+}
+.card p{
+     color: black;
+     font-size: 12px;
+     padding: 0 25px;
+}
+/* *common elemants ends here */
+
+/* nav start here */
+nav{
+     background-color: rgb(45, 226, 226);
+}
+nav .logo{
+     width: 40%;
+}
+nav .Menu{
+     width: 60%;
+     
+}
+nav .Menu ul{
+     text-align: right;
+}
+nav .Menu ul li{
+     display: inline-block;
+}
+
+nav .Menu ul li a{
+     font-weight: 800;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: white;
+     padding: 26px 25px;
+     display: inline-block;
+}
+/*nav ends here */
+
+/* Banner start here */
+#Banner{
+     height: 728px;
+     background-size: cover;
+     background-position: center;
+     background-image: url(../image/banner.jpg);
+     background-color: rgba(255, 0, 0,0.30);
+     background-blend-mode: multiply;
+     text-align: center;
+     color: white;
+}
+#Banner .banner-cnt{
+     width: 100%;
+}
+#Banner .row{
+     height: 728px;
+}
+    #Banner .banner-cnt h2{
+     font-weight: 400;
+     font-size: 30px;
+    }
+    #Banner .banner-cnt h1{
+     font-weight: 800;
+     font-size: 70px;
+     text-transform: uppercase;
+     letter-spacing: 30px;
+    }
+    #Banner .banner-cnt p{
+
+     font-size: 18px;
+     font-weight: 400;
+    }
+    #Banner .banner-cnt img{
+     margin: 50px 0;
+    }
+    #Banner .banner-cnt a{
+     margin: 50px 0;
+     background-color: yellow;
+     color: black;
+     padding: 15px 45px;
+     display: inline-block;
+     transition: 0.03s;
+    }
+    #Banner .banner-cnt a:hover{
+
+     background-color: yellowgreen;
+     color: green;
+    }
+
+/* Banner ends here */
+/* about starts here */
+#about{
+     padding: 98px 0;
+}
+#about .intro{
+     text-align: center;
+     font-weight: 400;
+     font-size: 16px;
+     color: #7e8287;
+     padding: 0 200px;
+     line-height: 40px;
+}
+
+
+
+
+/*about ends here */
